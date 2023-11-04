@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.2s linear;
+    border: none;
+    outline: none;
+}
+body{
+    background-color: #eee;
+   
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .counter{
+    background-color: white;
+    padding: 3rem;
+    border-radius: 10px;
+}
+.container .counter p{
+    text-align: center;
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 1;
+}
+.container .counter .count1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-bottom: 75px;
+}
+.container .counter button{
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin: 2.5rem 1rem;
+    cursor: pointer;
+}
+.container .counter button#sub{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+.container .counter button#add{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+.container .counter button#reset{
+    background-color: rgb(170, 148, 236);
+    color: black;
+    border-radius: 5px;
+}
